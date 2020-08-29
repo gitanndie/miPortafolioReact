@@ -1,0 +1,41 @@
+.proyectos {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.proyectos .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.proyectos .titulo h2 {
+    font-size: 50pt;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(51, 137, 236);
+}
+
+.proyectos #corousel {
+    width: 50%;
+    border-radius: 20%;
+    box-shadow: rgb(5, 105, 145) 10px 10px 30px;
+}
+
+@media screen and (max-width: 720px){
+    .proyectos .titulo h2 {
+        font-size: 30pt;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .proyectos #corousel {
+        width: 100%;
+    border-radius: 20%;
+    box-shadow: rgb(5, 105, 145) 10px 10px 30px;
+}
+}

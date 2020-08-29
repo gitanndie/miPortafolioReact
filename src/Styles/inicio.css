@@ -1,0 +1,82 @@
+.sec-inicio {
+    box-sizing: border-box; 
+    background-image: url('https://www.creati.cl/Sistemas/Sitio/images/uploads/DesarrollodeSistemasweb5.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sec-inicio .sec-me {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.sec-inicio .sec-nombre {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.sec-inicio .sec-nombre h1 {
+    color: #edf3f8;
+    font-size: 70pt;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sec-inicio .sec-nombre p {
+    color: #e9eaf8;
+    font-size: 30pt;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    align-self: center;
+    text-align: center;
+}
+
+.sec-inicio .img {
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-inicio .img img {
+    text-align: center;
+    border: solid 2px white;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 720px) {
+    .sec-inicio .sec-me {
+        padding-top: 30px;
+    }
+    .sec-inicio .sec-nombre h1 {
+        color: #ffffff;
+        font-size: 40pt;
+        margin-bottom: 20px;
+    }
+    .sec-inicio .sec-nombre p {
+        align-self: center;
+        color: #ffffff;
+        font-size: 15pt;
+        line-height: 50px;
+        width: 70%;
+        font-family: 'Righteous', cursive;
+        margin: 20px 0px;
+    }
+    .sec-inicio .img {
+        width: 100%;
+    }
+    .sec-inicio .img img {
+        max-width: 60%;
+    }
+}
+

@@ -1,0 +1,67 @@
+.sobremi {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.sobremi .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sobremi .titulo h2 {
+    font-size: 40pt;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(51, 137, 236);
+}
+
+.sobremi .reseña {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sobremi .reseña .div-res {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.sobremi .reseña .div-res p {
+    align-self: center;
+    font-size: 14pt;
+    color: rgb(108, 124, 133);
+    font-family: 'Righteous', cursive;
+    text-align: justify;
+}
+
+@media screen and (max-width: 720px) {
+    .sobremi {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .sobremi .titulo h2 {
+        font-size: 30pt;
+    }
+    .sobremi .reseña {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sobremi .reseña .div-res {
+        width: 100%;
+    }
+    .sobremi .reseña .div-res p {
+        font-size: 12pt;
+    }
+}
