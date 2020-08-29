@@ -27,7 +27,7 @@
     width: 100%;
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 120px;
 }
 
 .sec-inicio .sec-nombre p {
@@ -40,7 +40,7 @@
 }
 
 .sec-inicio .img {
-    margin-top: 50px;
+    margin-top: 10px;
     width: 500px;
     height: 200px;
     display: flex;
@@ -50,7 +50,8 @@
 .sec-inicio .img img {
     text-align: center;
     border: solid 2px white;
-    max-width: 100%;
+    width: 40%;
+    height: 150%;
     border-radius: 10%;
 }
 
