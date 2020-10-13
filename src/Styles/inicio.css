@@ -1,6 +1,6 @@
 .sec-inicio {
     box-sizing: border-box; 
-    background-image: url('https://kindalo.com/wp-content/uploads/2018/04/cropped-desarrollo-de-software-1.jpg');
+    background-image: url('../images/fondo.jpg');
     background-repeat: repeat;
     height: 100vh;
     display: flex;
